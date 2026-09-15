@@ -68,7 +68,7 @@ export default function AboutImages() {
 
       <div className={classes.FirstImage}>
         <img
-          src="/public/Images/Img About/About1.jpg"
+          src="/Images/Img About/About1.jpg"
           alt="travel"
           className={classes.Image}
         />
@@ -79,7 +79,7 @@ export default function AboutImages() {
 
       <div className={classes.SecondImage}>
         <img
-          src="/public/Images/Img About/About2.jpg"
+          src="/Images/Img About/About2.jpg"
           alt="travel"
           className={classes.Image}
         />

@@ -22,7 +22,7 @@ const SignUPHeader = () => {
         {/* Logo */}
         <img
           src={
-            "public/Images/ChatGPT_Image_Feb_9__2026__03_03_03_AM-removebg-preview.png"
+            "/Images/ChatGPT_Image_Feb_9__2026__03_03_03_AM-removebg-preview.png"
           }
           className={LoginCard_Styling.Styling2}
         />

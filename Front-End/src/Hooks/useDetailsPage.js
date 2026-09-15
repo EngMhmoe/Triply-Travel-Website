@@ -17,11 +17,13 @@ Start imports (1)
 =============================================================*/
 
 
-export function useDetailsPage({booking , requiredFields })
+export function useDetailsPage({booking , requiredFields , DarkMode})
 {
   //Step 1 ==> Styling TourDetailsPage
   const DetailsPage_Styling = {
-    Styling1: "flex flex-col gap-50",
+        Styling1: DarkMode
+      ? "flex flex-col gap-50 bg-(--DarkMode-color) text-white font-semibold"
+      : "flex flex-col gap-50 bg-white text-(--primary-pera) font-semibold",
 
     ////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////

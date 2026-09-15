@@ -19,7 +19,7 @@ export default function SectionRight() {
     <div dir="ltr" className={classes.Wrapper}>
       {/* Decorative Plane */}
       <section className={classes.Plane}>
-        <img src="/public/Images/Img About/About5.png" alt="" />
+        <img src="/Images/Img About/About5.png" alt="" />
       </section>
 
       {/* //////////////////////////////////////////////////////////////////////// */}
@@ -28,7 +28,7 @@ export default function SectionRight() {
       {/* Images */}
       <div className={classes.ImagesWrapper}>
         <img
-          src="/public/Images/Img About/About3.jpg"
+          src="/Images/Img About/About3.jpg"
           alt="travel1"
           className={classes.MainImage}
         />
@@ -37,7 +37,7 @@ export default function SectionRight() {
         {/* //////////////////////////////////////////////////////////////////////// */}
 
         <img
-          src="/public/Images/Img About/About4.jpg"
+          src="/Images/Img About/About4.jpg"
           alt="travel2"
           className={classes.SecondImage}
         />

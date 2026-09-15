@@ -32,7 +32,7 @@ export default function Logo() {
         {/* Logo */}
         <img
           src={
-            "Images/ChatGPT_Image_Feb_9__2026__03_03_03_AM-removebg-preview.png"
+            "/Images/ChatGPT_Image_Feb_9__2026__03_03_03_AM-removebg-preview.png"
           }
           className={
             isHeaderFixed

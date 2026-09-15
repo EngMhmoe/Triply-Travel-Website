@@ -8,7 +8,7 @@ const FAQ = ({ faq }) => {
       {/* //////////////////////////////////////////////////////////////// */}
       {/* //////////////////////////////////////////////////////////////// */}
 
-      <div className="flex flex-col gap-7 text-(--primary-pera)">
+      <div className="flex flex-col gap-7 text-white">
         {faq?.map((item, index) => (
           <div
             key={item.id}

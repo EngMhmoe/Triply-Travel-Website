@@ -63,10 +63,9 @@ const BookingForm = ({ formData, handleChangeFormData }) => {
       {/* Email + Phone */}
       <div className="grid lg:grid-cols-2 gap-3">
         <InputField
-          type={"email"}
+          type="email"
           label="Email Address"
           name="email"
-          type="email"
           value={formData.email}
           onChange={handleChangeFormData}
           icon={<FaEnvelope />}

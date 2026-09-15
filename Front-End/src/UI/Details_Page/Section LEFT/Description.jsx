@@ -13,7 +13,7 @@ const Description = ({ Descriptions }) => (
     {/* //////////////////////////////////////////////////////////////// */}
 
     {Descriptions?.map((text, i) => (
-      <p key={i} className="text-(--primary-pera) leading-7 mt-5">
+      <p key={i} className="leading-7 mt-5">
         {text}
       </p>
     ))}

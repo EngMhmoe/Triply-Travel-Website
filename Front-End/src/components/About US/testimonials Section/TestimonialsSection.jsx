@@ -28,7 +28,7 @@ export default function TestimonialsSection() {
     <section
       className={classes.Wrapper}
       style={{
-        backgroundImage: "url('/public/Images/Img About/About9.jfif')",
+        backgroundImage: "url('/Images/Img About/About9.png')",
         backgroundPosition: "fixed",
       }}
     >

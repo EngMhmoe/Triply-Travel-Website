@@ -18,7 +18,7 @@ export default function DetailsInfo({ DataDetailsInfo }) {
           {/* ////////////////////////////////////////////////////////// */}
 
           {/* Data */}
-          <section className="flex flex-col gap-0.5 text-sm text-(--primary-pera) font-semibold">
+          <section className="flex flex-col gap-0.5 text-sm font-semibold">
             <h1 className="text-lg">{state?.name}</h1>
             <p className=" opacity-85">{state?.Data}</p>
           </section>

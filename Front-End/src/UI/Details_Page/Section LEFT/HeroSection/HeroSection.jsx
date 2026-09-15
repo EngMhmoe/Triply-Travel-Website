@@ -17,7 +17,7 @@ const HeroSection = ({ DataDetails }) => {
         {/* Title & Location */}
         <div>
           {/* Title */}
-          <h2 className="font-bold md:text-4xl text-3xl text-(--primary-pera)  text-shadow-lg text-shadow-black/19 mb-3">
+          <h2 className="font-bold md:text-4xl text-3xl text-shadow-lg text-shadow-black/19 mb-3">
             {DataDetails?.title}
           </h2>
 
@@ -25,9 +25,7 @@ const HeroSection = ({ DataDetails }) => {
           {/* //////////////////////////////////////////////////////////////// */}
 
           {/* location */}
-          <div
-            className={"flex items-center gap-1 text-lg text-(--primary-pera)"}
-          >
+          <div className={"flex items-center gap-1 text-lg"}>
             <FiMapPin className={"text-(--primary-color) text-2xl font-bold"} />
             {DataDetails?.location?.city} _
             {DataDetails?.location?.address || DataDetails?.location?.country}
@@ -40,7 +38,7 @@ const HeroSection = ({ DataDetails }) => {
         {/* Rating */}
         <section
           className={
-            "flex items-center justify-end ms-auto h-fit   gap-2  text-lg font-semibold text-(--primary-pera)"
+            "flex items-center justify-end ms-auto h-fit  gap-2 text-lg font-semibold"
           }
         >
           <div
