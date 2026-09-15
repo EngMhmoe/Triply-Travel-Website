@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_independent_menu_info_foods",
+  "info": {
+    "displayName": "menuInfo_FOOD"
+  },
+  "options": {},
+  "attributes": {
+    "servingSize": {
+      "type": "integer"
+    },
+    "preparationTime": {
+      "type": "integer"
+    },
+    "calories": {
+      "type": "integer"
+    },
+    "spicyLevel": {
+      "type": "string"
+    },
+    "cookingStyle": {
+      "type": "string"
+    },
+    "mealType": {
+      "type": "string"
+    },
+    "dishWeight": {
+      "type": "integer"
+    },
+    "protein": {
+      "type": "integer"
+    },
+    "carbs": {
+      "type": "integer"
+    },
+    "fat": {
+      "type": "integer"
+    },
+    "allergens": {
+      "type": "json"
+    },
+    "servingTemperature": {
+      "type": "string"
+    },
+    "recommendedDrink": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

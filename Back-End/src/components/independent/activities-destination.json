@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_independent_activities_destinations",
+  "info": {
+    "displayName": "Activities_DESTINATION"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

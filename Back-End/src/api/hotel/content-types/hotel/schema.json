@@ -1,0 +1,97 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "singularName": "hotel",
+    "pluralName": "hotels",
+    "displayName": "Hotel"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "type": {
+      "type": "string"
+    },
+    "location": {
+      "type": "component",
+      "component": "shared.location",
+      "repeatable": false
+    },
+    "category": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "reviewsCount": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "oldPrice": {
+      "type": "decimal"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "views": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "durationLabel": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "description": {
+      "type": "json"
+    },
+    "facilities": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::feature.feature"
+    },
+    "services": {
+      "type": "json"
+    },
+    "attractions": {
+      "type": "json"
+    },
+    "policies": {
+      "type": "json"
+    },
+    "details": {
+      "type": "component",
+      "component": "independent.details-hotel",
+      "repeatable": false
+    }
+  }
+}

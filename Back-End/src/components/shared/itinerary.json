@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_itineraries",
+  "info": {
+    "displayName": "Itinerary"
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "integer"
+    },
+    "time": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

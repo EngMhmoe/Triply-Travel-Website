@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Start BTN Styling
+   ========================================================================== */
+
+.BTN {
+  transition: 0.5s ease-in-out;
+}
+
+.BTN::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #d27700;
+  transition: 0.6s ease-in-out;
+}
+
+.BTN:hover {
+  color: white;
+  transition-delay: 0.5s;
+}
+
+.BTN:hover::before {
+  width: 100%;
+}
+
+.BTN::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: #f28c07;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  transition: 0.9s ease;
+  z-index: -1;
+}
+
+.BTN:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: white;
+}
+
+/* ==========================================================================
+   End BTN Styling
+   ========================================================================== */
+
+/* ==========================================================================
+   IconMenu
+   ========================================================================== */

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_independent_post_body_blogs",
+  "info": {
+    "displayName": "PostBody_BLOG"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "json"
+    },
+    "blockquote": {
+      "type": "component",
+      "component": "independent.blockquote-blog",
+      "repeatable": false
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::feature.feature"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_shared_details",
+  "info": {
+    "displayName": "details_TOUR"
+  },
+  "options": {},
+  "attributes": {
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "highlights": {
+      "type": "json"
+    },
+    "included": {
+      "type": "json"
+    },
+    "excluded": {
+      "type": "json"
+    },
+    "itinerary": {
+      "type": "component",
+      "component": "shared.itinerary",
+      "repeatable": true
+    },
+    "faq": {
+      "type": "component",
+      "component": "shared.faq",
+      "repeatable": true
+    },
+    "reviews": {
+      "type": "component",
+      "component": "shared.reviews",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

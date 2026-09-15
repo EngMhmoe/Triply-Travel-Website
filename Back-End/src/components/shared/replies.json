@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_replies",
+  "info": {
+    "displayName": "Replies"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "datetime"
+    },
+    "name": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

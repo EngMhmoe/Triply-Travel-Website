@@ -1,0 +1,228 @@
+/*
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+ */
+
+/* =====================================
+Start AboutUS_Component Styling ==> (1)
+======================================== */
+@media screen and (max-width: 690px) {
+  .img1 {
+    width: 280px;
+  }
+
+  .img2 {
+    width: 280px;
+  }
+
+  .AboutImages {
+    width: 590px;
+  }
+
+  .Decorative {
+    position: absolute;
+    top: 55px;
+  }
+}
+
+@media screen and (max-width: 634px) {
+  .img1 {
+    width: 250px;
+  }
+
+  .img2 {
+    width: 250px;
+  }
+
+  .AboutImages {
+    width: 520px;
+  }
+
+  .Experience {
+    position: absolute;
+    top: 250px;
+  }
+
+  .Decorative {
+    position: absolute;
+    top: 70px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .img1 {
+    width: 230px;
+  }
+
+  .img2 {
+    width: 230px;
+  }
+
+  .AboutImages {
+    width: 470px;
+  }
+
+  .Experience {
+    position: absolute;
+    top: 280px;
+  }
+
+  .Decorative {
+    position: absolute;
+    top: 70px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .img1 {
+    width: 200px;
+  }
+
+  .img2 {
+    width: 200px;
+  }
+
+  .AboutImages {
+    width: 400px;
+  }
+
+  .Experience {
+    position: absolute;
+    top: 300px;
+  }
+
+  .Decorative {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 443px) {
+  .img1 {
+    width: 170px;
+  }
+
+  .img2 {
+    width: 170px;
+  }
+
+  .AboutImages {
+    width: 350px;
+  }
+
+  .Experience {
+    position: absolute;
+    top: 330px;
+  }
+
+  .Decorative {
+    display: none;
+  }
+
+  .AboutSection {
+    padding-top: 1500px;
+  }
+
+  .AboutUSHome {
+    padding-top: 300px;
+  }
+}
+
+@media screen and (max-width: 397px) {
+  .img1 {
+    width: 140px;
+  }
+
+  .img2 {
+    width: 140px;
+  }
+
+  .AboutImages {
+    width: 275px;
+  }
+
+  .Experience {
+    position: absolute;
+    top: 350px;
+  }
+
+  .Decorative {
+    display: none;
+  }
+
+  .AboutSection {
+    padding-top: 1440px;
+  }
+
+  .AboutUSHome {
+    padding-top: 260px;
+  }
+}
+/* =====================================
+End AboutComponent Styling ==> (1)
+======================================== */
+
+/*
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+===========================================================================
+ */
+
+/* =====================================
+Start WhyChooseUs_Component Styling ==> (2)
+======================================== */
+@media screen and (max-width: 840px) and (min-width: 770px) {
+  .WhyChooseUs_img1 {
+    width: 210px;
+    right: 190px;
+  }
+
+  .WhyChooseUs_img2 {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 527px) {
+  .RIGHT_IMAGES {
+    display: flex;
+    justify-content: center;
+  }
+  .WhyChooseUs_img1 {
+    width: 210px;
+    right: 150px;
+  }
+
+  .WhyChooseUs_img2 {
+    width: 220px;
+    margin-left: 125px;
+  }
+}
+
+@media screen and (max-width: 401px) {
+  .RIGHT_IMAGES {
+    display: flex;
+    /* justify-content: center; */
+  }
+  .WhyChooseUs_img1 {
+    width: 172px;
+    right: 120px;
+    top: 15px;
+  }
+
+  .WhyChooseUs_img2 {
+    width: 160px;
+    margin-left: 125px;
+  }
+}
+
+/* =====================================
+End WhyChooseUs_Component Styling ==> (2)
+======================================== */

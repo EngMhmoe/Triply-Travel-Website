@@ -1,0 +1,64 @@
+//import Hooks React
+import { useState } from "react";
+
+//import Components
+import LeftContent from "./LeftContent";
+import RightImageANDPlayButton from "./RightImageANDPlayButton";
+import ModalVideo from "./ModalVideo";
+
+//
+import FadeUpMotion from "../../../UI/FreeMotions/FadeUpMotion";
+import { useTranslation } from "react-i18next";
+
+export default function VideoSection() {
+  //state open VideoSection
+  const [open, setOpen] = useState(false);
+
+  //t, i18n
+  const { i18n } = useTranslation();
+
+  ////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////////
+
+  /*===========================================================================
+  Start Styling VideoSection
+  =============================================================================*/
+  const VideoSection_Styling = {
+    Styling1: `${i18n.language === "en" ? "mx-auto w-full md:pl-6  xl:pl-30" : "mx-auto w-full md:pr-6  xl:pr-30"}`,
+
+    ////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////
+
+    Styling2: "grid md:grid-cols-2 w-full gap-12 items-center",
+  };
+
+  return (
+    <>
+      <section>
+        {/* container */}
+        <div className={VideoSection_Styling.Styling1}>
+          <div className={VideoSection_Styling.Styling2}>
+            {/* Left Content */}
+            <LeftContent />
+
+            {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+            {/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+            {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+            {/* Right Image + Play Button */}
+            <FadeUpMotion>
+              <RightImageANDPlayButton setOpen={setOpen} />
+            </FadeUpMotion>
+          </div>
+        </div>
+      </section>
+
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+      {/* Modal */}
+      {open && <ModalVideo setOpen={setOpen} />}
+    </>
+  );
+}

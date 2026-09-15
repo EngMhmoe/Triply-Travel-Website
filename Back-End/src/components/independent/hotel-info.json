@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_independent_hotel_infos",
+  "info": {
+    "displayName": "HotelInfo_HOTEL"
+  },
+  "options": {},
+  "attributes": {
+    "maxRooms": {
+      "type": "integer"
+    },
+    "maxGuests": {
+      "type": "integer"
+    },
+    "hotelType": {
+      "type": "string"
+    },
+    "hotelStars": {
+      "type": "integer"
+    },
+    "minimumStay": {
+      "type": "integer"
+    },
+    "extraPeople": {
+      "type": "string"
+    },
+    "securityDeposit": {
+      "type": "integer"
+    },
+    "safetySecurity": {
+      "type": "string"
+    },
+    "cancellation": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,81 @@
+//import React Icons
+import {
+  MdBookmark, MdPendingActions, MdAttachMoney, MdTrendingUp,
+  MdHotel, MdFlight, MdDirectionsCar, MdTour, MdOutlineFoodBank ,
+  MdCheckCircle, MdFavorite, MdMessage,
+  MdDashboard, MdPerson, MdHistory, MdListAlt,
+  MdAddCircleOutline, MdAccountBalanceWallet,
+  MdNotifications, MdSettings, MdLogout,
+} from "react-icons/md";
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Step 1 => Data STAT_CARDS
+export const STAT_CARDS = [
+  { label: "Total Booking",    value: "120",     icon: MdBookmark,      color: "#0ea5e9", bg: "#e0f2fe" },
+  { label: "Pending Booking",  value: "26",      icon: MdPendingActions,color: "#14b8a6", bg: "#ccfbf1" },
+  { label: "You Earned",       value: "$60,050", icon: MdAttachMoney,   color: "#f97316", bg: "#ffedd5" },
+  { label: "Completed Trips",  value: "94",      icon: MdTrendingUp,    color: "#8b5cf6", bg: "#ede9fe" },
+];
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Step 2 =>  Dada CHART_DATA
+export const CHART_DATA = [
+  { time: "00:00", bookings: 12, revenue: 24 },
+  { time: "02:00", bookings: 18, revenue: 38 },
+  { time: "04:00", bookings: 32, revenue: 51 },
+  { time: "06:00", bookings: 28, revenue: 44 },
+  { time: "08:00", bookings: 45, revenue: 67 },
+  { time: "10:00", bookings: 39, revenue: 58 },
+  { time: "12:00", bookings: 55, revenue: 74 },
+  { time: "14:00", bookings: 48, revenue: 69 },
+  { time: "16:00", bookings: 62, revenue: 83 },
+  { time: "18:00", bookings: 57, revenue: 78 },
+  { time: "20:00", bookings: 70, revenue: 91 },
+  { time: "22:00", bookings: 65, revenue: 87 },
+];
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Step 3 =>  Data NOTIFICATIONS
+export const NOTIFICATIONS = [
+  { id: 1, icon: MdHotel,       color: "#0ea5e9", title: "Your Booking #123456 Roltak Hotel Is Confirmed!", time: "Just now"    },
+  { id: 2, icon: MdCheckCircle, color: "#22c55e", title: "Your Booking #123456 Roltak Hotel Is Confirmed!", time: "15 min ago"  },
+  { id: 3, icon: MdFavorite,    color: "#f97316", title: "Your Booking #123456 Roltak Hotel Is Confirmed!", time: "15 days ago" },
+  { id: 4, icon: MdMessage,     color: "#14b8a6", title: "Your Booking #123456 Roltak Hotel Is Confirmed!", time: "2 months ago"},
+];
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Step 4 =>  Data RECENT_BOOKINGS
+export const RECENT_BOOKINGS = [
+  // { id: "#12451", type: "Flight",   icon: MdFlight,         date: "Oct 22, 2025", price: "$3,200",  status: "Confirmed" },
+  // { id: "#12452", type: "Tour",    icon: MdTour,          date: "Oct 22, 2025", price: "$11,569", status: "Confirmed" },
+  // { id: "#12453", type: "Hotel",    icon: MdHotel,          date: "Oct 22, 2025", price: "$11,569", status: "Confirmed" },
+  // { id: "#12454", type: "Car",      icon: MdDirectionsCar,  date: "Oct 24, 2025", price: "$420",    status: "Confirmed" },
+  // { id: "#12455", type: "Food",      icon: MdOutlineFoodBank ,  date: "Oct 24, 2025", price: "$420",    status: "Confirmed" },
+  // { id: "#12456", type: "Destination", icon: MdTour,  date: "Oct 24, 2025", price: "$420",    status: "Confirmed" },
+];
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Step 5 => Data STATUS_CONFIG
+export const STATUS_CONFIG = {
+  Confirmed: { color: "#22c55e", bg: "#dcfce7" },
+  Pending:   { color: "#f59e0b", bg: "#fef9c3" },
+  Cancelled: { color: "#ef4444", bg: "#fee2e2" },
+};

@@ -1,0 +1,7 @@
+@media screen and (max-width: 401px) {
+  .Header {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_independent_details_hotels",
+  "info": {
+    "displayName": "details_HOTEL"
+  },
+  "options": {},
+  "attributes": {
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "availableRooms": {
+      "type": "component",
+      "component": "independent.available-rooms",
+      "repeatable": true
+    },
+    "amenities": {
+      "type": "component",
+      "component": "independent.amenities-hotel",
+      "repeatable": true
+    },
+    "faq": {
+      "type": "component",
+      "component": "shared.faq",
+      "repeatable": true
+    },
+    "reviews": {
+      "type": "component",
+      "component": "shared.reviews",
+      "repeatable": true
+    },
+    "hotelInfo": {
+      "type": "component",
+      "component": "independent.hotel-info",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

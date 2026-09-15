@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_independent_details_foods",
+  "info": {
+    "displayName": "details_FOOD"
+  },
+  "options": {},
+  "attributes": {
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "highlights": {
+      "type": "json"
+    },
+    "ingredients": {
+      "type": "json"
+    },
+    "menuInfo": {
+      "type": "component",
+      "component": "independent.menu-info-food",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "component": "shared.faq",
+      "repeatable": true
+    },
+    "reviews": {
+      "type": "component",
+      "component": "shared.reviews",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

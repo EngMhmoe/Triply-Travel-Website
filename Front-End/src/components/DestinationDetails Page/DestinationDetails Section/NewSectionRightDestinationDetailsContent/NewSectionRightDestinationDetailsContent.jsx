@@ -1,0 +1,35 @@
+//import Component UI
+import DateBox from "../../../../UI/Details_Page/Section RIGHT/booking/DateBox";
+
+//import Component NEW
+import GuestsBox from "../../../TourDetails Page/TourDetails Section/NewSectionRightTourDetailsContent/GuestsBox";
+import TourTotalBox from "../../../TourDetails Page/TourDetails Section/NewSectionRightTourDetailsContent/TourTotalBox";
+
+//import useBookingTourStore
+import useBookingTourStore from "../../../../Store/useBookingTourStore";
+
+export default function NewSectionRightDestinationDetailsContent({
+  DestinationDataDetails,
+}) {
+  const { booking, updateBooking } = useBookingTourStore();
+  return (
+    <section className="space-y-5">
+      {/*  Date ==> OK */}
+      <DateBox booking={booking} updateBooking={updateBooking} />
+
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+      {/* Guests ==> OK */}
+      <GuestsBox TourDataDetails={DestinationDataDetails} />
+
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+      {/* Total ==> ok */}
+      <TourTotalBox TourDataDetails={DestinationDataDetails} />
+    </section>
+  );
+}

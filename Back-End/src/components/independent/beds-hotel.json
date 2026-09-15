@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_independent_beds_hotels",
+  "info": {
+    "displayName": "Beds_HOTEL"
+  },
+  "options": {},
+  "attributes": {
+    "count": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

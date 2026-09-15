@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_independent_author_socials_blogs",
+  "info": {
+    "displayName": "Author-Socials_BLOG"
+  },
+  "options": {},
+  "attributes": {
+    "facebook": {
+      "type": "text"
+    },
+    "instagram": {
+      "type": "text"
+    },
+    "twitter": {
+      "type": "text"
+    },
+    "whatsapp": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

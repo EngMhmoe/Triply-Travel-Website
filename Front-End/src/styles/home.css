@@ -1,0 +1,112 @@
+/* ==========================================================
+  Hero Section
+========================================================== */
+
+.Title {
+  background-image: linear-gradient(
+    to right,
+    #ff6600,
+    #ff6600,
+    #ff0101,
+    #ff0101
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ==========================================================
+   Offers Section
+========================================================== */
+
+@media (max-width: 477px) {
+  .offer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img {
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .Content {
+    padding-inline: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+/* ==========================================================
+   Testimonials Section
+========================================================== */
+
+.text-stroke {
+  -webkit-text-stroke: 2.5px rgba(255, 255, 255, 0.373);
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 490px) {
+  .Watermark {
+    position: absolute;
+    bottom: 20px;
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 387px) {
+  .Watermark {
+    position: absolute;
+    bottom: 55px;
+    font-size: 60px;
+  }
+
+  .text-stroke {
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.373);
+  }
+}
+
+/* ==========================================================
+   Footer
+========================================================== */
+@media (max-width: 469px) {
+  .Swiper {
+    width: 240px;
+  }
+}
+
+/* ==========================================================
+  HeroSection
+========================================================== */
+.SearchPlan {
+  transition: 0.5s;
+  padding: 0.5em 1.1em;
+  font-size: 23px;
+  background: linear-gradient(
+    to right,
+    orange,
+    rgb(231, 138, 71),
+    rgb(231, 71, 71),
+    red
+  );
+  text-shadow: 1px 1px 2px rgba(205, 0, 0, 0.8);
+  box-shadow: 0 0 10px rgba(222, 0, 0, 0.538);
+  transition:
+    transform 0.5s ease,
+    box-shadow 0.5s ease,
+    color 0.5s ease;
+  word-spacing: 5px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.SearchPlan:hover {
+  /*transform: scale(1.1);
+  */
+  box-shadow: 0 0 15px red;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}

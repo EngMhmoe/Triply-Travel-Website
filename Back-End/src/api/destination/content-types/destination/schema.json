@@ -1,0 +1,89 @@
+{
+  "kind": "collectionType",
+  "collectionName": "destinations",
+  "info": {
+    "singularName": "destination",
+    "pluralName": "destinations",
+    "displayName": "Destination"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "location": {
+      "type": "component",
+      "component": "shared.location",
+      "repeatable": false
+    },
+    "continent": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "reviewsCount": {
+      "type": "integer"
+    },
+    "views": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "oldPrice": {
+      "type": "decimal"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "tours": {
+      "type": "integer"
+    },
+    "hotels": {
+      "type": "integer"
+    },
+    "transports": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "json"
+    },
+    "services": {
+      "type": "json"
+    },
+    "details": {
+      "type": "component",
+      "component": "independent.details-destination",
+      "repeatable": false
+    }
+  }
+}

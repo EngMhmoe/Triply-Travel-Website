@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_user_actions",
+  "info": {
+    "displayName": "UserActions"
+  },
+  "options": {},
+  "attributes": {
+    "liked": {
+      "type": "boolean"
+    },
+    "disliked": {
+      "type": "boolean"
+    },
+    "loved": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

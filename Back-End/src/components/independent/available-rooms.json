@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_independent_available_rooms",
+  "info": {
+    "displayName": "AvailableRooms_HoteL"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "pricePerDay": {
+      "type": "decimal"
+    },
+    "size": {
+      "type": "integer"
+    },
+    "beds": {
+      "type": "component",
+      "component": "independent.beds-hotel",
+      "repeatable": false
+    },
+    "bathroom": {
+      "type": "string"
+    },
+    "wifi": {
+      "type": "string"
+    },
+    "freeToiletries": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

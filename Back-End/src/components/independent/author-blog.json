@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_independent_author_blogs",
+  "info": {
+    "displayName": "Author_BLOG"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "socials": {
+      "type": "component",
+      "component": "independent.author-socials-blog",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

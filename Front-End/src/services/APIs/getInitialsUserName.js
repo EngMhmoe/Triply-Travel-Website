@@ -1,0 +1,16 @@
+
+export default function getInitialsUserName(name = "") {
+
+    const formatUserName = name
+        .trim()
+        .split(" ")[0][0]
+        // .toUpperCase() || "lhkgjf";
+
+
+
+
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+
+    return formatUserName
+}

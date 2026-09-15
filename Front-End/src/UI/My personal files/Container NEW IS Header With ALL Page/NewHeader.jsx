@@ -1,0 +1,73 @@
+//import Components NEW ==> My Listing
+import SearchBar from "../../../components/My personal files/My Listing/MyListing Section/NEW My Listing/SearchBar";
+
+//import Component UI
+import CountOrders from "./CountOrders";
+
+export default function NewHeader({
+  condition = "",
+  orders = null,
+
+  //
+  search = "",
+  setSearch = "",
+  setVisibleCount = "",
+  rows = "",
+}) {
+  return (
+    <div
+      style={{
+        padding: "20px 24px 0px",
+      }}
+      className="flex flex-wrap items-center  justify-between gap-4 mb-9 w-full"
+    >
+      <div className="grow">
+        <h2
+          className={
+            condition === "MyDashBoard"
+              ? "font-bold text-(--primary-color) text-[18px] m-0"
+              : "text-4xl md:text-3xl font-bold text-(--primary-pera)"
+          }
+        >
+          {condition === "MyBooking" && "Order Center"}
+          {condition === "MyBookingHistory" && "Booking History"}
+          {condition === "MyDashBoard" && "Recent Bookings"}
+        </h2>
+
+        {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+        {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+        {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+        {/* Component Is SearchBar With My Listing ==> OK */}
+        {condition === "My Listing" && (
+          <SearchBar
+            value={search}
+            onChange={(v) => {
+              setSearch(v);
+              setVisibleCount(rows);
+            }}
+          />
+        )}
+
+        {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+        {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+        {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+        <p className="mt-1">
+          {condition !== "My Listing" &&
+            condition !== "MyDashBoard" &&
+            "Manage all your reservations professionally"}
+        </p>
+      </div>
+
+      {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+      {/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */}
+
+      {/* Component IS CountOrders With ALL Page UI */}
+      <CountOrders orders={orders} />
+    </div>
+  );
+}

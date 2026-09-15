@@ -1,0 +1,103 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tours",
+  "info": {
+    "singularName": "tour",
+    "pluralName": "tours",
+    "displayName": "Tour"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "location": {
+      "type": "component",
+      "component": "shared.location",
+      "repeatable": false
+    },
+    "category": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "reviewsCount": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "oldPrice": {
+      "type": "decimal"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "string"
+    },
+    "durationLabel": {
+      "type": "string"
+    },
+    "nights": {
+      "type": "integer"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "groupSize": {
+      "type": "integer"
+    },
+    "places": {
+      "type": "integer"
+    },
+    "tourType": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "description": {
+      "type": "json"
+    },
+    "attractions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::feature.feature"
+    },
+    "services": {
+      "type": "json"
+    },
+    "views": {
+      "type": "integer"
+    },
+    "details": {
+      "type": "component",
+      "component": "shared.details",
+      "repeatable": false
+    }
+  }
+}

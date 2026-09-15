@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_reviews",
+  "info": {
+    "displayName": "Reviews"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "time": {
+      "type": "datetime"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    },
+    "likes": {
+      "type": "integer"
+    },
+    "dislikes": {
+      "type": "integer"
+    },
+    "hearts": {
+      "type": "integer"
+    },
+    "replies": {
+      "type": "component",
+      "component": "shared.replies",
+      "repeatable": true
+    },
+    "userActions": {
+      "type": "component",
+      "component": "shared.user-actions",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_independent_details_cars",
+  "info": {
+    "displayName": "details_CAR"
+  },
+  "options": {},
+  "attributes": {
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "highlights": {
+      "type": "json"
+    },
+    "rentalPolicies": {
+      "type": "json"
+    },
+    "faq": {
+      "type": "component",
+      "component": "shared.faq",
+      "repeatable": true
+    },
+    "reviews": {
+      "type": "component",
+      "component": "shared.reviews",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_independent_amenities_hotels",
+  "info": {
+    "displayName": "Amenities_HOTEL"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

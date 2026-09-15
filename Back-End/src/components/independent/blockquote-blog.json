@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_independent_blockquote_blogs",
+  "info": {
+    "displayName": "Blockquote_BLOG"
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

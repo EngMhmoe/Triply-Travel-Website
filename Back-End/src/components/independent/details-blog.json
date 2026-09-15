@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_independent_details_blogs",
+  "info": {
+    "displayName": "details_BLOG"
+  },
+  "options": {},
+  "attributes": {
+    "author": {
+      "type": "component",
+      "component": "independent.author-blog",
+      "repeatable": false
+    },
+    "postBody": {
+      "type": "component",
+      "component": "independent.post-body-blog",
+      "repeatable": false
+    },
+    "reviews": {
+      "type": "component",
+      "component": "shared.reviews",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

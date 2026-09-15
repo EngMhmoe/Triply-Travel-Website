@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_independent_details_destinations",
+  "info": {
+    "displayName": "details_DESTINATION"
+  },
+  "options": {},
+  "attributes": {
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "destinationInfo": {
+      "type": "component",
+      "component": "independent.destination-info",
+      "repeatable": false
+    },
+    "highlights": {
+      "type": "json"
+    },
+    "topAttractions": {
+      "type": "component",
+      "component": "independent.top-attractions-destination",
+      "repeatable": true
+    },
+    "activities": {
+      "type": "component",
+      "component": "independent.top-attractions-destination",
+      "repeatable": true
+    },
+    "travelTips": {
+      "type": "json"
+    },
+    "faq": {
+      "type": "component",
+      "component": "shared.faq",
+      "repeatable": true
+    },
+    "reviews": {
+      "type": "component",
+      "component": "shared.reviews",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
