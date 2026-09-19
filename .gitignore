@@ -1,2 +1,5 @@
 node_modules/ 
+
 .env 
+
+Back-End/*.tar.gz.enc
